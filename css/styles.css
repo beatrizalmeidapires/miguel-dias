@@ -48,7 +48,7 @@ a.nav-link:hover{
 }
 
 .facebook-icon, .instagram-icon, .spotify-icon {
-  width: 3%;
+  width: 2rem;
   margin: 0.5rem;
 }
 
@@ -78,10 +78,6 @@ a.nav-link:hover{
 
 .w-50 {
   width: 40% !important;
-}
-
-.carousel-control-prev {
-  color: blue;
 }
 
 .image1 > img {
@@ -117,5 +113,13 @@ a.nav-link:hover{
 
 .nav {
     height: 300px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .w-50 {
+    width: 80% !important;
   }
 }
