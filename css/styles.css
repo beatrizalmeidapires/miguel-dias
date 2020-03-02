@@ -1,0 +1,74 @@
+/*Navbar section */
+.navbar {
+  background-color: black;
+}
+
+h1, h4 {
+  padding: 1.5rem;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.navbar-brand {
+  color: white;
+}
+
+.nav-item {
+  padding: 0.6rem 1rem;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+/*----- Main image -----*/
+.image {
+  width: 50%;
+}
+
+/*----- Social Media icons -----*/
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  /* flex-direction: column; */
+}
+
+.facebook-icon, .instagram-icon, .spotify-icon {
+  width: 3%;
+  margin: 0.5rem;
+}
+
+.spotify-icon {
+  margin-right: 2rem;
+}
+
+.videos-container {
+  text-align: center;
+}
+
+.carousel-item>img {
+  margin: auto;
+}
+
+.w-50 {
+  width: 40% !important;
+}
+
+.carousel-control-prev {
+  color: blue;
+}
+
+.image1 > img {
+  width: 100%;
+}
+
+/* If the media is 900px or less do this: */
+@media screen and (max-width: 900px) {
+  .nav-item {
+    padding: 0;
+  }
+}
