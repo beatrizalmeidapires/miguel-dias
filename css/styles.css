@@ -105,7 +105,7 @@ a.nav-link:hover{
   padding-bottom: 5rem;
 }
 
-/* If the media is 900px or less do this: */
+/* If the media is 600px or less do this: */
 @media screen and (max-width: 600px) {
   .nav-item {
     padding: 0;
@@ -120,6 +120,17 @@ a.nav-link:hover{
   }
 
   .w-50 {
-    width: 80% !important;
+    width: 100% !important;
+  }
+
+  .tour-schedule{
+    display: flex;
+    height: 1000px;
+    text-align: center;
+  }
+
+  .tour-container {
+    justify-content: center;
+    align-self: center;
   }
 }
