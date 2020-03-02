@@ -3,7 +3,7 @@ body {
   font-weight: 700;
 }
 
-/*Navbar section */
+/*----- Navbar section -----*/
 .navbar {
   background-color: black;
 }
@@ -23,11 +23,11 @@ a.navbar-brand {
 }
 
 .nav-link {
-  color: white !important;
+  color: white!important;
 }
 
 a.nav-link:hover {
-  background-color: rgb(73, 73, 73);
+  background-color: orange;
 }
 
 .image-container {
@@ -48,15 +48,6 @@ a.nav-link:hover {
   /* flex-direction: column; */
 }
 
-.facebook-icon, .instagram-icon, .spotify-icon {
-  width: 2rem;
-  margin: 0.5rem;
-}
-
-.spotify-icon {
-  margin-right: 2rem;
-}
-
 .videos-container {
   text-align: center;
   background-color: orange;
@@ -73,16 +64,11 @@ a.nav-link:hover {
   padding-bottom: 5rem;
 }
 
-.carousel-item>img {
-  margin: auto;
-}
-.w-50 {
-  width: 40% !important;
-}
-
 .image1>img {
   width: 100%;
 }
+
+/*--- Tour Section ---*/
 
 .tour-schedule {
   color: white;
@@ -109,7 +95,7 @@ a.nav-link:hover {
   text-align: center;
 }
 
-.social-media2 {
+.social-media {
   display: flex;
   margin: 20px 10px;
   justify-content: center;
