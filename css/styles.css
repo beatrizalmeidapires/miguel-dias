@@ -21,11 +21,12 @@ a.navbar-brand {
 .nav-item {
   padding: 0.6rem 1rem;
 }
+
 .nav-link {
-  color: white!important;
+  color: white !important;
 }
 
-a.nav-link:hover{
+a.nav-link:hover {
   background-color: rgb(73, 73, 73);
 }
 
@@ -61,12 +62,12 @@ a.nav-link:hover{
   background-color: orange;
 }
 
-.videos-container > h1 {
+.videos-container>h1 {
   color: white;
   font-weight: bold;
 }
 
-.videos-container > h4{
+.videos-container>h4 {
   margin-bottom: 0;
   padding: 2rem;
   padding-bottom: 5rem;
@@ -75,12 +76,11 @@ a.nav-link:hover{
 .carousel-item>img {
   margin: auto;
 }
-
 .w-50 {
   width: 40% !important;
 }
 
-.image1 > img {
+.image1>img {
   width: 100%;
 }
 
@@ -90,7 +90,7 @@ a.nav-link:hover{
   background-color: black;
 }
 
-.tour-schedule > h1 {
+.tour-schedule>h1 {
   font-weight: 700;
   color: orange;
   padding: 2rem;
@@ -111,7 +111,7 @@ a.nav-link:hover{
     padding: 0;
   }
 
-.nav {
+  .nav {
     height: 300px;
   }
 
@@ -123,7 +123,7 @@ a.nav-link:hover{
     width: 100% !important;
   }
 
-  .tour-schedule{
+  .tour-schedule {
     display: flex;
     height: 1000px;
     text-align: center;
