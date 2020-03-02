@@ -105,6 +105,16 @@ a.nav-link:hover {
   padding-bottom: 5rem;
 }
 
+#footer > p {
+  text-align: center;
+}
+
+.social-media2 {
+  display: flex;
+  margin: 20px 10px;
+  justify-content: center;
+}
+
 /* If the media is 600px or less do this: */
 @media screen and (max-width: 600px) {
   .nav-item {
