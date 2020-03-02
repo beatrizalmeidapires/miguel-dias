@@ -8,8 +8,9 @@ body {
   background-color: black;
 }
 
-h1, h4 {
-  padding: 1.5rem;
+h1 {
+  padding: 1rem;
+  padding-top: 5rem;
 }
 
 a.navbar-brand {
@@ -57,6 +58,18 @@ a.nav-link:hover{
 
 .videos-container {
   text-align: center;
+  background-color: orange;
+}
+
+.videos-container > h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.videos-container > h4{
+  margin-bottom: 0;
+  padding: 2rem;
+  padding-bottom: 5rem;
 }
 
 .carousel-item>img {
@@ -76,14 +89,16 @@ a.nav-link:hover{
 }
 
 .tour-schedule {
+  color: white;
   text-align: center;
+  background-color: black;
 }
 
 .tour-schedule > h1 {
   font-weight: 700;
   color: orange;
   padding: 2rem;
-  margin-top: 50px;
+  padding-top: 5rem;
 }
 
 .date {
@@ -91,7 +106,7 @@ a.nav-link:hover{
 }
 
 .date-four {
-  margin-bottom: 50px;
+  padding-bottom: 5rem;
 }
 
 /* If the media is 900px or less do this: */
@@ -103,6 +118,4 @@ a.nav-link:hover{
 .nav {
     height: 300px;
   }
-
-
 }
