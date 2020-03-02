@@ -80,6 +80,7 @@ a.nav-link:hover{
 }
 
 .tour-schedule > h1 {
+  font-weight: 700;
   color: orange;
   padding: 2rem;
   margin-top: 50px;
@@ -94,8 +95,14 @@ a.nav-link:hover{
 }
 
 /* If the media is 900px or less do this: */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .nav-item {
     padding: 0;
   }
+
+.nav {
+    height: 300px;
+  }
+
+
 }
