@@ -3,6 +3,10 @@ body {
   font-weight: 700;
 }
 
+.iframe {
+  width: 500px;
+}
+
 /*----- Navbar section -----*/
 .navbar {
   background-color: black;
@@ -23,7 +27,7 @@ a.navbar-brand {
 }
 
 .nav-link {
-  color: white!important;
+  color: white !important;
 }
 
 a.nav-link:hover {
@@ -69,7 +73,6 @@ a.nav-link:hover {
 }
 
 /*--- Tour Section ---*/
-
 .tour-schedule {
   color: white;
   text-align: center;
@@ -91,7 +94,7 @@ a.nav-link:hover {
   padding-bottom: 5rem;
 }
 
-#footer > p {
+#footer>p {
   text-align: center;
 }
 
@@ -108,7 +111,7 @@ a.nav-link:hover {
   }
 
   .nav {
-    height: 300px;
+    height: 100px;
   }
 
   .image {
