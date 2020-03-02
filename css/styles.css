@@ -3,9 +3,10 @@ body {
   font-weight: 700;
 }
 
-.iframe {
-  width: 500px;
+.container-fluid {
+  padding: 0;
 }
+
 
 /*----- Navbar section -----*/
 .navbar {
@@ -36,13 +37,13 @@ a.nav-link:hover {
 
 .image-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr 1fr;
   justify-items: center;
 }
 
 /*----- Main image -----*/
 .image {
-  width: 50%;
+  width: 80%;
 }
 
 /*----- Social Media icons -----*/
@@ -79,7 +80,7 @@ a.nav-link:hover {
   background-color: black;
 }
 
-.tour-schedule>h1 {
+.tour-container>h1 {
   font-weight: 700;
   color: orange;
   padding: 2rem;
@@ -88,6 +89,10 @@ a.nav-link:hover {
 
 .date {
   padding: 1rem;
+}
+
+.date>h2 {
+  font-weight: 700;
 }
 
 .date-four {
@@ -104,10 +109,33 @@ a.nav-link:hover {
   justify-content: center;
 }
 
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  padding-left: 200px;
+}
+
+.social-icons > a {
+  margin: 0.5rem;
+}
+
+.big-image {
+  margin: auto;
+  width: 100%;
+  margin-left: 5rem;
+}
+
 /* If the media is 600px or less do this: */
 @media screen and (max-width: 600px) {
   .nav-item {
     padding: 0;
+  }
+
+  iframe{
+    width: 450px;
+    height: 300px;
   }
 
   .nav {
