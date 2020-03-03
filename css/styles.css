@@ -13,12 +13,6 @@ body {
   background-color: black;
 }
 
-h1 {
-  font-size: 3rem;
-  padding: 1rem;
-  padding-top: 5rem;
-}
-
 a.navbar-brand {
   font-family: 'Permanent Marker';
   font-size: 1.8em;
@@ -55,6 +49,10 @@ a.navbar-brand {
   margin-left: 5rem;
 }
 
+#home {
+  background-color: black;
+}
+
 /*---- Social Media icons ----*/
 .social-icons {
   display: flex;
@@ -73,13 +71,25 @@ a.navbar-brand {
 }
 
 /*----- Video Section -------*/
+
+h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+
+#music {
+  height: 42rem;
+  background-color: orange;
+}
+
 iframe {
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 
 .videos-container {
   text-align: center;
-  background-color: orange;
 }
 
 .videos-container>h1 {
@@ -120,6 +130,9 @@ iframe {
 
 /*----- Footer -------*/
 #footer>p {
+  font-size: 1rem;
+  letter-spacing: 0;
+  font-weight: 400;
   padding: 10px;
   text-align: center;
   margin-bottom: 0px;
@@ -139,8 +152,12 @@ iframe {
 
   /*----- Video section -----*/
   iframe {
-    width: 320px;
+    width: 380px;
     height: 300px;
+  }
+
+  span.carousel-control-prev-icon, span.carousel-control-next-icon{
+    margin-top: 5rem;
   }
 
   /*----- First Image -----*/
@@ -188,4 +205,9 @@ iframe {
     justify-content: center;
     align-self: center;
   }
+
+  #music {
+    height: 30rem;
+  }
+
 }
