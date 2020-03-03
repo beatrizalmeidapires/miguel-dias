@@ -105,18 +105,8 @@ iframe {
   margin-top: 5rem;
 }
 
-/*---- Songs grid section ----*/
-/* .songs-grid {
-  display: grid;
-  grid-template-columns: 300px 300px;
-  grid-gap: 3em;
-  justify-content: center;
-  align-items: center;
-}
+/*---- Songs flex section ----*/
 
-.card {
-  margin-top: 130px;
-} */
 .songs-grid {
 display: flex;
 flex-wrap: wrap;
@@ -190,6 +180,7 @@ align-items: center;
   text-align: center;
   margin-bottom: 0px;
 }
+
 
 /* If the media is 600px or less do this: */
 @media screen and (max-width: 600px) {
