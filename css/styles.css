@@ -166,6 +166,10 @@ iframe {
     margin: 0.5rem 1rem;
   }
 
+  img.youtube {
+    width: 43px;
+  }
+
   .social-icons {
     flex-direction: row;
     padding: 0;
