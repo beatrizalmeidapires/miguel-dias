@@ -106,7 +106,7 @@ iframe {
 }
 
 /*---- Songs grid section ----*/
-.songs-grid {
+/* .songs-grid {
   display: grid;
   grid-template-columns: 300px 300px;
   grid-gap: 3em;
@@ -116,11 +116,21 @@ iframe {
 
 .card {
   margin-top: 130px;
+} */
+.songs-grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.card {
+  width: 30%;
+  margin: 10rem 2rem;
 }
 
 #songs {
   background-color: black;
-  height: 650px;
 }
 
 .card-body {
@@ -206,6 +216,14 @@ iframe {
   span.carousel-control-prev-icon, span.carousel-control-next-icon {
     margin: 0;
     margin-top: 5rem;
+  }
+
+  .card-1 {
+    margin: 4rem 2rem 4rem 2rem;
+  }
+
+  .card-2{
+    margin: 0rem 2rem 4rem 2rem;
   }
 
   /*----- First Image -----*/
