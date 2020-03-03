@@ -172,6 +172,7 @@ a.navbar-brand {
   align-items: center;
   align-self: center;
   padding-left: 200px;
+  z-index: 6;
 }
 
 .social-icons>a {
