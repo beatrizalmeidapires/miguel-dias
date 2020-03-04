@@ -7,7 +7,7 @@ https://mkrtchyan.ga
     margin: 0;
     padding: 0;
 }
-header {
+/* header {
     background-color:rgba(33, 33, 33, 0.9);
     color:#ffffff;
     display:block;
@@ -30,7 +30,7 @@ header h2{
 header a, a:visited {
     text-decoration:none;
     color:#fcfcfc;
-}
+} */
 
 @keyframes move-twink-back {
     from {background-position:0 0;}
@@ -49,7 +49,7 @@ header a, a:visited {
     to {background-position:-10000px 5000px;}
 }
 
-@keyframes move-clouds-back {
+/* @keyframes move-clouds-back {
     from {background-position:0 0;}
     to {background-position:10000px 0;}
 }
@@ -64,7 +64,7 @@ header a, a:visited {
 @-ms-keyframes move-clouds-back {
     from {background-position: 0;}
     to {background-position:10000px 0;}
-}
+} */
 
 .stars, .twinkling, .clouds {
   position:absolute;
@@ -93,7 +93,7 @@ header a, a:visited {
   animation:move-twink-back 200s linear infinite;
 }
 
-.clouds{
+/* .clouds{
     background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
     z-index:3;
 
@@ -102,7 +102,7 @@ header a, a:visited {
   -o-animation:move-clouds-back 200s linear infinite;
   -webkit-animation:move-clouds-back 200s linear infinite;
   animation:move-clouds-back 200s linear infinite;
-}
+} */
 
 
 body {
@@ -150,14 +150,14 @@ a.navbar-brand {
 }
 
 .image {
-  width: 80%;
+  width: 70%;
   z-index: 4;
 }
 
 .big-image {
   margin: auto;
   width: 100%;
-  margin-left: 5rem;
+  margin-left: 18rem;
   z-index: 5;
 }
 
@@ -176,7 +176,7 @@ a.navbar-brand {
 }
 
 .social-icons>a {
-  margin: 0.5rem;
+  margin: 0.8rem;
 }
 
 .social-icons>a:hover {
@@ -244,9 +244,13 @@ align-items: center;
   box-shadow: 5px 8px 8px 8px #3b1515;
 }
 
-.spotify-icon, .youtube-icon {
+.spotify-icon, .youtube-icon, .itunes-icon, .amazon-icon, .google-icon, .apple-icon, .tidal-icon {
   width: 1.2rem;
-  margin: 0 0.5rem;
+  margin: 0 0.3rem;
+}
+
+.music-icon:hover{
+  opacity: 0.5;
 }
 
 .youtube-icon {
@@ -295,7 +299,7 @@ align-items: center;
 }
 
 /* If the media is 600px or less do this: */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   /*----- Navbar section -----*/
   .nav-item {
