@@ -4,9 +4,10 @@ https://sed.am
 https://mkrtchyan.ga
 ================================================================================================= */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
 /* header {
     background-color:rgba(33, 33, 33, 0.9);
     color:#ffffff;
@@ -31,22 +32,44 @@ header a, a:visited {
     text-decoration:none;
     color:#fcfcfc;
 } */
-
 @keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
 }
+
 @-webkit-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
 }
+
 @-moz-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
 }
+
 @-ms-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
 }
 
 /* @keyframes move-clouds-back {
@@ -65,32 +88,30 @@ header a, a:visited {
     from {background-position: 0;}
     to {background-position:10000px 0;}
 } */
-
-.stars, .twinkling, .clouds {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  width:100%;
-  height:100%;
-  display:block;
+.stars, .twinkling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index:0;
+  background: #000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index: 0;
 }
 
-.twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  z-index:1;
-
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
+.twinkling {
+  background: transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index: 1;
+  -moz-animation: move-twink-back 200s linear infinite;
+  -ms-animation: move-twink-back 200s linear infinite;
+  -o-animation: move-twink-back 200s linear infinite;
+  -webkit-animation: move-twink-back 200s linear infinite;
+  animation: move-twink-back 200s linear infinite;
 }
 
 /* .clouds{
@@ -103,8 +124,6 @@ header a, a:visited {
   -webkit-animation:move-clouds-back 200s linear infinite;
   animation:move-clouds-back 200s linear infinite;
 } */
-
-
 body {
   font-family: 'Roboto Condensed';
   font-weight: 700;
@@ -134,12 +153,12 @@ a.navbar-brand {
 
 .nav-link {
   font-size: 1.3em;
-  color: white !important;
+  color: #EF8C3F!important;
   z-index: 6;
 }
 
 .nav-item>a:hover {
-  color: orange !important;
+  color: #a35315!important;
 }
 
 /*----- Main Picture -------*/
@@ -150,14 +169,14 @@ a.navbar-brand {
 }
 
 .image {
-  width: 70%;
+  width: 90%;
   z-index: 4;
 }
 
 .big-image {
   margin: auto;
   width: 100%;
-  margin-left: 18rem;
+  margin-left: 12rem;
   z-index: 5;
 }
 
@@ -189,14 +208,21 @@ a.navbar-brand {
   display: flex;
 }
 
-.grey-side{
+#title {
+  padding: 0;
+  padding-top: 6rem;
+  font-weight: 700;
+  color: #EF8C3F;
+}
+
+.grey-side {
   text-align: justify;
   width: 50%;
   color: white;
   background-color: rgb(17, 17, 17);
 }
 
-.mint-side{
+.mint-side {
   width: 50%;
   background-color: rgb(17, 17, 17);
 }
@@ -206,8 +232,13 @@ a.navbar-brand {
   height: 100%;
 }
 
-.bio{
+.bio {
   padding: 5rem;
+}
+
+.bio > p {
+  letter-spacing: 2px;
+  line-height: 20px;
 }
 
 /*----- Video Section -------*/
@@ -219,7 +250,7 @@ h1 {
 
 #music {
   height: 42rem;
-  background-color: orange;
+  background-color: #EF8C3F;
 }
 
 iframe {
@@ -246,12 +277,11 @@ iframe {
 }
 
 /*---- Songs flex section ----*/
-
 .songs-grid {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -267,6 +297,7 @@ align-items: center;
   background-color: black;
   text-align: center;
 }
+
 .card {
   box-shadow: 5px 8px 8px 8px #3b1515;
 }
@@ -276,7 +307,7 @@ align-items: center;
   margin: 0 0.3rem;
 }
 
-.music-icon:hover{
+.music-icon:hover {
   opacity: 0.5;
 }
 
@@ -298,7 +329,7 @@ align-items: center;
 
 .tour-container>h1 {
   font-weight: 700;
-  color: orange;
+  color: #EF8C3F;
   padding: 2rem;
   padding-top: 5rem;
 }
@@ -356,7 +387,7 @@ align-items: center;
     margin: 4rem 2rem 4rem 2rem;
   }
 
-  .card-2{
+  .card-2 {
     margin: 0rem 2rem 4rem 2rem;
   }
 
@@ -380,7 +411,7 @@ align-items: center;
   /*----- Social Icons -----*/
   .social-icons>a {
     width: 18px;
-    margin: 0.5rem 1rem;
+    margin: 1.5rem 2rem;
   }
 
   img.youtube {
@@ -390,8 +421,7 @@ align-items: center;
   .social-icons {
     flex-direction: row;
     padding: 0;
-    margin-bottom: 1rem;
-    justify-self: baseline;
+    /* justify-self: baseline; */
   }
 
   /*----- Tour Section -----*/
@@ -419,5 +449,11 @@ align-items: center;
     width: 100%;
   }
 
+  button {
+    z-index: 5;
+  }
 
+  .bio {
+    text-align: center;
+  }
 }
