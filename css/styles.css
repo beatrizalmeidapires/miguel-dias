@@ -210,7 +210,7 @@ a.navbar-brand {
 
 #title {
   padding: 0;
-  padding-top: 6rem;
+  padding-top: 1rem;
   font-weight: 700;
   color: #EF8C3F;
 }
@@ -237,6 +237,8 @@ a.navbar-brand {
 }
 
 .bio > p {
+  font-weight: lighter;
+  font-size: 0.8rem;
   letter-spacing: 2px;
   line-height: 20px;
 }
@@ -421,6 +423,7 @@ iframe {
   .social-icons {
     flex-direction: row;
     padding: 0;
+    padding-top: 3rem;
     /* justify-self: baseline; */
   }
 
@@ -455,5 +458,16 @@ iframe {
 
   .bio {
     text-align: center;
+    padding: 0 2rem;
   }
+
+  #title {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  #about {
+    margin-top: 3rem;
+  }
+
 }
